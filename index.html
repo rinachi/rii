@@ -1,0 +1,113 @@
+<<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="UTF-8">
+ <title>期末プログラム</title>
+  <script src="ex06-5.js"></script>
+  <script src="ex06-6.js"></script>
+  <script src="ex06-7.js"></script>
+  <script src="ex06-8.js"></script>
+  <script src="ex06-9.js"></script>
+  <script src="ex06-10.js"></script>
+  <script src="ex06-11.js"></script>
+  <script src="ex06-12.js"></script>
+  <script src="ex06-13.js"></script>
+  <script src="ex07-13.js"></script>
+  <script src="game.js"></script>
+  </head>
+<body>
+ <h1> 変数の練習65</h1>
+  <input type="button" value="あいさつ"onclick="sayhello65();">
+  <input type="button" value="太郎"onclick="taro();">
+  <input type="button" value="花子"onclick="hanako();">
+  
+  <h1>
+    変数の練習66
+  </h1>
+  <input type="button" value="あいさつ"onclick="sayhello66();">
+  <input type="button" value="太郎"onclick="taro66();">
+  <input type="button" value="花子"onclick="hanako66();">
+  
+  <h1>
+    引数の練習67
+  </h1>
+  <input type="button" value="あいさつ" onclick="sayhello67();">
+  <input type="button" value="太郎" onclick="someone('太郎');">
+  <input type="button" value="花子" onclick="someone('花子');">
+  <input type="button" value="レイ" onclick="someone('レイ');">
+  <input type="button" value="シンジ" onclick="someone('シンジ');">
+  <input type="button" value="アスカ" onclick="someone('アスカ');">
+  
+  <h1>
+    JavaScriptによる変更の練習68
+  </h1>
+  <input type="button"value="あいさつ" onclick="sayhello68();">
+  <input type="button"value="太郎" onclick="taro68();">
+  <input type="button"value="花子" onclick="hanako68();">
+  <p id="who68">最初はworld</p>
+  
+  <h1>
+    JavaScriptによるページの変更69
+  </h1>
+  <div id="txt1">
+    <input type="button"value="テキストの変更"
+           onclick="txtchange1();">
+    城西大学
+  </div>
+  <div id="image1">
+    <input type="button"value="画像の変更"
+           onclick="imgchange1();">
+    <img src='./image/jurogo.JPG'id="logo"alt="JosaiLogo">
+    <input type="button"value="元に戻す"
+           onclick="imgchange2();">
+  </div>
+  
+  <h1>タイマーイベントによる実行6-10</h1>
+  <form name="timer">
+  <input type="button"value="スタート"
+         onclick="startfnc()">
+  <br>
+  <input type="text"name="moji"size="30"
+         value=""></form>
+  <form>
+    <input type="button"value="Timer"
+           onclick="setTimeout('mes()',3000)">
+  </form>
+  
+  <h1>
+    タイマーイベントによる実行6-11
+  </h1>
+  <form name="timer2">
+    <input type="button"value="スタート"
+           onclick="hyoji2()">
+    <br>
+    <input type="text"name="moji2"size="30"
+           value="">
+  </form>
+  
+  <h1>
+    6-12
+  </h1>
+  <input type="button"value="3秒で変更"onclick="ThreeSecChange();">
+  <img src='./image/JU.jpg'id="logo2"alt="JU.jpg">
+  
+  <h1>
+    6-13
+  </h1>
+  <input type="button"value="変更後3秒で元に戻る"onclick="ChangeImageAndBack();">
+  <img src='./image/JU.jpg'id="logo3"alt="JU.jpg">
+  
+ 
+  
+  <h1>
+    JavaScriptの変数とデバッガを理解09-2
+  </h1>
+  <p>
+    下のボタンを押すと数字が表示されます
+  </p>
+  <p>
+    <input type="button"value="実行ボタン"onclick="addCount()">
+  </p>
+  
+  </body>
+  </html>
